@@ -1,0 +1,216 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+
+}
+.item1{
+    margin-top: 60px;
+    margin-left: 120px;
+
+}
+
+
+.logo{
+    height: 60px;
+    width: auto;
+
+}
+.banner{
+    height: auto;
+    max-width: 100%;
+}
+
+.links{
+    float: right;
+    height: 15px;
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    
+}
+
+.signup{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-right: 50px;
+
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+h2{
+    color: gray;
+    margin-top: 5px;
+
+}
+.loctioninput{
+    width: 70%;
+    height: 25px;
+    color: gray;
+    margin: 40px auto auto 0px;
+    padding: 10px;
+    font-size: 18px !important;
+    font-weight: 500;
+}
+.location{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 310px;
+    left: 500px;
+    padding: 15px;
+}
+button:hover{
+    background-color: lightgray;
+}
+.findfood{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    color: white;
+    background-color: #fc8019;
+    line-height: 50px;
+    margin-left: -5px;
+
+
+}
+.cities{
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px 0;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+}
+.citylist{
+    width: 570px;
+    list-style: none;
+    margin-top: 20px;
+}
+.list{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+    text-decoration: none;
+}
+.list:nth-child(even){
+    color: lightslategray;
+}
+.info-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2b1e16;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+}
+
+.text-head{
+    color: white;
+    text-align: center;
+    margin-bottom: -17px;
+    margin-top: 30px;
+
+}
+.text-detail{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px;
+}
+.rest{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.res{
+    width: 23%;
+}
+.rest .text{
+    margin-top: 84px;
+
+}
+.rest .text h1{
+    font-size: 40px;
+    text-align: center;
+}
+.rest .text p{
+    margin-top: 11px;
+    text-align: center;
+    font-size: 20px;
+    color: #7e808c
+}
+
+.store{
+    margin-bottom: 22%;
+    width: 20%;
+    cursor: pointer;
+    margin-right: -190px;
+    margin-left: 211px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 44px;
+
+}
+.footer .list{
+    margin-inline: 33px;
+}
+.fimg1{
+    width: 17%;
+    height: 60%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-right: -320px;
+}
+.fimg2{
+    width: 17%;
+    height: 60%;
+    margin-bottom: 80px;
+    margin-top: 120px;
+}
+
+.flheading{
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.list p{
+    color: white;
+    font-size: 17px;
+    
+}
